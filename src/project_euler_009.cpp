@@ -1,8 +1,6 @@
 #include <algorithm>
-#include <chrono>
-#include <iostream>
 
-int project_euler_9(const int n)
+int project_euler_009(const int n)
 {
   int nbSolutions = 0;
   int res = 0;
@@ -23,22 +21,7 @@ int project_euler_9(const int n)
       }
     }
   }
-  std::cout << "Solution: " << res << " (" << nbSolutions << " solution)" << std::endl;
-  return 0;
-}
-
-int main(void)
-{
-  std::cout << std::endl;
-
-  auto start = std::chrono::high_resolution_clock::now();
-  project_euler_9(1000);
-  auto end = std::chrono::high_resolution_clock::now();
-
-  std::chrono::duration<double> duration = end - start;
-  std::cout << "Duration: " << duration.count() << " seconds" << std::endl;
-
-  return 0;
+  return res;
 }
 
 // end

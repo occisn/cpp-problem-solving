@@ -1,5 +1,3 @@
-#include <chrono>
-#include <iostream>
 
 /**
  * Finds the largest prime factor of a given number.
@@ -54,26 +52,10 @@ static long long largest_prime_factor(long long n)
   return largest;
 }
 
-static int project_euler_3(const long long n)
+long long project_euler_003(const long long n)
 {
   long long solution = largest_prime_factor(n);
-  std::cout << "Solution for " << n << ": " << solution << std::endl;
-  return 0;
-}
-
-int main()
-{
-  std::cout << std::endl;
-  project_euler_3(13195);
-
-  auto start = std::chrono::high_resolution_clock::now();
-  project_euler_3(600851475143LL);
-  auto end = std::chrono::high_resolution_clock::now();
-
-  std::chrono::duration<double> duration = end - start;
-  std::cout << "Duration: " << duration.count() << " seconds" << std::endl;
-
-  return 0;
+  return solution;
 }
 
 // end

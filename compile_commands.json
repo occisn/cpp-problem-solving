@@ -1,0 +1,114 @@
+[
+ {
+  "directory": "c:\\Users\\nicol\\Dropbox\\local-repos\\cpp-problem-solving",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-std=c++17",
+   "-Isrc",
+   "-Iinclude",
+   "-c",
+   "src/main.cpp",
+   "-o",
+   "build/main.o"
+  ],
+  "file": "src/main.cpp"
+ },
+ {
+  "directory": "c:\\Users\\nicol\\Dropbox\\local-repos\\cpp-problem-solving",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-std=c++17",
+   "-Isrc",
+   "-Iinclude",
+   "-c",
+   "src/project_euler_001.cpp",
+   "-o",
+   "build/project_euler_001.o"
+  ],
+  "file": "src/project_euler_001.cpp"
+ },
+ {
+  "directory": "c:\\Users\\nicol\\Dropbox\\local-repos\\cpp-problem-solving",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-std=c++17",
+   "-Isrc",
+   "-Iinclude",
+   "-c",
+   "src/project_euler_002.cpp",
+   "-o",
+   "build/project_euler_002.o"
+  ],
+  "file": "src/project_euler_002.cpp"
+ },
+ {
+  "directory": "c:\\Users\\nicol\\Dropbox\\local-repos\\cpp-problem-solving",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-std=c++17",
+   "-Isrc",
+   "-Iinclude",
+   "-c",
+   "src/project_euler_003.cpp",
+   "-o",
+   "build/project_euler_003.o"
+  ],
+  "file": "src/project_euler_003.cpp"
+ },
+ {
+  "directory": "c:\\Users\\nicol\\Dropbox\\local-repos\\cpp-problem-solving",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-std=c++17",
+   "-Isrc",
+   "-Iinclude",
+   "-c",
+   "src/project_euler_005.cpp",
+   "-o",
+   "build/project_euler_005.o"
+  ],
+  "file": "src/project_euler_005.cpp"
+ },
+ {
+  "directory": "c:\\Users\\nicol\\Dropbox\\local-repos\\cpp-problem-solving",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-std=c++17",
+   "-Isrc",
+   "-Iinclude",
+   "-c",
+   "src/project_euler_006.cpp",
+   "-o",
+   "build/project_euler_006.o"
+  ],
+  "file": "src/project_euler_006.cpp"
+ },
+ {
+  "directory": "c:\\Users\\nicol\\Dropbox\\local-repos\\cpp-problem-solving",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-std=c++17",
+   "-Isrc",
+   "-Iinclude",
+   "-c",
+   "src/project_euler_009.cpp",
+   "-o",
+   "build/project_euler_009.o"
+  ],
+  "file": "src/project_euler_009.cpp"
+ }
+]
