@@ -1,6 +1,10 @@
 
 int project_euler_002(const int n)
 {
+  if (n < 2) {
+    return 0;
+  }
+  
   int f1 = 1;
   int f2 = 2;
   int sum = 2;
